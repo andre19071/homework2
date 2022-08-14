@@ -4,3 +4,20 @@
 //-4, 16 -> да
 //25, 5 -> да
 //8,9 -> нет
+
+Console.WriteLine("Введите первое число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число: ");
+int b = Convert.ToInt32(Console.ReadLine());
+int result1 = a * a;
+int result2 = b * b;
+
+if (result1 == b || result2 == a)
+{
+
+    Console.WriteLine("Да");
+}
+else
+{
+    Console.WriteLine("Нет");
+}
